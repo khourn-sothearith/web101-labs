@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bio</title>
+        <style>
+            img{
+                width: 200px;
+                border-radius: 10px;
+                display: block;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>My personal Bio</h1>
+            <p>Welcome to my semantic HTML webpage</p>
+        </header>
+
+        <nav>
+            <a href="#home">About Me</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <main>
+            <section id="home">
+                <h2>About Me</h2>
+                <img src="Profile.png" alt="My profile facebook">
+                <p>
+                    Hello! My name is Khourn Sothearith. I'm a student studying 
+                    Information Technology Engineering (ITE). Outside of studying, 
+                    I like photography, watch science fiction, and playing game 
+                    online with my friends. 
+                </p>
+                <p>I enjoy learning HTML, CSS, JavaScript, and web design.</p>
+            </section>
+
+            <section id="project">
+                <h2>Projects</h2>
+                <p>Projects collection of assignments, and things I built while learning to code.</p>
+                <a href="https://github.com/khourn-sothearith" target="_blank">My GitHub Account</a> |
+                <a href="https://www.facebook.com/share/1Dro38qF4v/" target="_blank">My Facebook</a>
+                <ul>
+                    <li>
+                        <h3>Glowflora</h3>
+                        <p>
+                            A visually calming digital project inspired by glowing flowers under a starry night. 
+                            Focuses on aesthetic design, soft lighting effects, and nature-themed visuals.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Personal CV Webpage</h3>
+                        <p>
+                            A clean and structured personal CV webpage displaying contact information, social
+                            media links, skills, education, and experience. Focuses on layout design, typography, 
+                            and simple styling.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Market Management System</h3>
+                        <p>
+                            A console-based application for managing products in a market. Allows users to add, 
+                            update, delete, and view product information through a terminal interface. Focuses on 
+                            basic CRUD operations and file handling.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Form</h2>
+                <ul>
+                    <li>Email: <a href="mailto:khournsothearith465@gmail.com" target="_blank"> khournsothearith465@gmail.com</a></li>
+                    <li>Phone: <a href="tel:+855717920799" target="_blank">+855717920799</a></li>
+                </ul>
+
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name"><br><br>
+                <label for="email">Email Address</label><br>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com"><br><br>
+                <label for="tel">Phone Number</label><br>
+                <input type="tel" name="tel" id="tel"><br><br>
+                <label for="topic">Topic</label><br>
+                <select name="topic" id="topic">
+
+                    <option value="study">Study</option>
+                    <option value="project">Project</option>
+                    <option value="job">Job Opportunity</option>
+                </select><br><br>
+                <label for="message">Message</label><br>
+                <textarea 
+                    name="message" 
+                    id="message" 
+                    placeholder="Write your message here..."
+                    rows="5"
+                ></textarea><br><br>
+                <button type="submit">Send Message</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Khourn Sothearith. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
